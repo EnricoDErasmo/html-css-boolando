@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
 .centered{
     width: 70%;
     margin: auto;
@@ -28,7 +32,7 @@ a{
     top: 0;
     right: 0;
     left: 0;
-    
+
     height: 60px;
 
     background-color: #ff6900;
@@ -83,6 +87,124 @@ a{
 
 
 /* ---------------------main----------------------- */
+
+main{
+    margin-top: 60px;
+}
+
+/* card */
+
+.cards{
+    padding-top: 50px;
+}
+
+.cards-container{
+    position: relative;
+
+    display: inline-block;
+}
+
+.card{
+    height: 450px;
+    width: 312px;
+}
+
+.cards-container .card a{
+    display: inline-block;
+
+    height: 100%;
+}
+
+.card img{
+    height: 100%;
+}
+
+.card-secondary{
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    display: none;
+}
+
+
+
+.cards-container:hover .card-secondary{
+    display: inline-block;
+}
+
+/* /card */
+
+/* etichette */
+.badge{
+    display: inline-block;
+
+    padding: 3px;
+
+    z-index: 1;
+
+    font-size: 0.7em;
+
+    color: white;
+}
+
+.red-badge{
+    position: absolute;
+    bottom: 30px;
+    left: 0;
+
+    background-color: red;
+}
+
+.green-badge{
+    position: absolute;
+    bottom: 30px;
+    left: 35px;
+    background-color: green;
+}
+
+/* /etichette */
+
+/* info-card */
+.brand{
+    font-size: 0.8em;
+}
+
+.price .discount{
+    font-size: 0.8em;
+
+    color: red;
+}
+
+.price .full-price{
+    text-decoration: line-through;
+
+    font-size: 0.8em;
+}
+/* /info-card */
+
+/* cuore */
+.like{
+    display: inline-block;
+
+    position: absolute;
+    top: 10px;
+    right: 0;
+
+    z-index: 2;
+
+    padding: 8px;
+
+    background-color: white;
+}
+
+.like:hover{
+    cursor:pointer;
+    color: red;
+}
+
+
+
 
 
 
