@@ -103,6 +103,8 @@ main{
     flex-flow: row wrap;
     justify-content: space-between;
     row-gap: 90px;
+
+    padding-bottom: 100px;
 }
 
 .cards-container{
@@ -133,7 +135,6 @@ main{
 
     display: none;
 }
-
 
 
 .cards-container:hover .card-secondary{
@@ -223,6 +224,71 @@ main{
 
 
 /* ------------------footer------------------------ */
+
+.foot-container{
+    background-color: black;
+}
+
+.footbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    color: white;
+}
+
+.ref-container{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+
+    padding: 20px 0;
+}
+
+.ref-container ul{
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+
+    font-size: 0.6em;
+}
+
+.ref-container ul li a{
+    color: white;
+}
+
+.ref{
+    padding: 10px 0;
+}
+
+.link-container{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+    padding: 20px 0;
+}
+
+.find-us{
+    font-size: 0.7em;
+}
+
+.social-container{
+    padding: 10px 0;
+}
+
+.social-container ul{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.social-container ul li a img{
+    height: 15px;
+
+    filter: invert(1);
+}
 
 
 
