@@ -3,3 +3,93 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+.centered{
+    width: 70%;
+    margin: auto;
+}
+
+ul{
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+
+/* ------------------/Assets------------------- */
+
+
+
+.nav-container{
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    
+    height: 60px;
+
+    background-color: #ff6900;
+}
+
+
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    height: 100%;
+}
+
+#age-selector ul{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    gap: 8px;
+}
+
+#age-selector ul li a{
+    color: white;
+}
+
+#logo img{
+    height: 2em;
+}
+
+#func-selector ul{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    gap: 8px;
+}
+
+#func-selector img{
+    height: 1em;
+
+    filter: invert(1);
+}
+
+
+
+/* -------------------/header---------------------- */
+
+
+
+
+
+/* ---------------------main----------------------- */
+
+
+
+
+
+
+
+    
+
+
