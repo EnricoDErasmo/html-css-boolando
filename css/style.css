@@ -9,7 +9,7 @@ body{
 }
 
 .centered{
-    width: 70%;
+    width: 75%;
     margin: auto;
 }
 
@@ -32,6 +32,8 @@ a{
     top: 0;
     right: 0;
     left: 0;
+
+    z-index: 3;
 
     height: 60px;
 
@@ -96,12 +98,17 @@ main{
 
 .cards{
     padding-top: 50px;
+
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    row-gap: 90px;
 }
 
 .cards-container{
     position: relative;
 
-    display: inline-block;
+    /* display: inline-block; */
 }
 
 .card{
@@ -163,9 +170,17 @@ main{
     background-color: green;
 }
 
+.green-badge.last{
+    left: 0;
+}
+
 /* /etichette */
 
 /* info-card */
+.info-container{
+    padding-bottom: 30px;
+}
+
 .brand{
     font-size: 0.8em;
 }
@@ -202,6 +217,14 @@ main{
     cursor:pointer;
     color: red;
 }
+
+/* -------------------/main----------------------- */
+
+
+
+/* ------------------footer------------------------ */
+
+
 
 
 
